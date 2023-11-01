@@ -37,7 +37,7 @@
         </div>
       </div>
     </nav>
-    <section class="container" id="cv">
+    <section class="container wrapper" id="cv">
       <div class="row">
         <div class="col-12 d-flex flex-column text-center">
           <h2>CURRICULUM VITAE</h2>
@@ -58,32 +58,99 @@
           </ul>
           <h2>Vaardigheden</h2>
           <hr />
-          <ul class="list-unstyled">
-            <i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-half"></i>
-            <li>HTML</li>
-            <i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-half"></i
-            ><i class="bi bi-star"></i>
-            <li>CSS</li>
-            <i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star-fill"></i
-            ><i class="bi bi-star"></i>
-            <li>C#</li>
-          </ul>
+
+          <div id="carouselExampleIndicators" class="carousel slide mb-3">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/Schermafbeelding 2023-11-01 144721.png"
+                  class="d-block w-100"
+                  alt="vaardigheden html"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/Schermafbeelding 2023-11-01 145114.png"
+                  class="d-block w-100"
+                  alt="Vaardigheden SQL"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/Schermafbeelding bootstra-11-01 145024.png"
+                  class="d-block w-100"
+                  alt="vaardigheden Bootstrap"
+                />
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="img/Schermafbeelding css-11-01 144817.png"
+                  class="d-block w-100"
+                  alt="vaardigheden css"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
           <h2>Opleiding</h2>
           <hr />
           <ul class="list-unstyled">
             <li><strong>Graduaat Programmeren</strong></li>
             <li>Thomas More, campus Geel - 2023-...</li>
-            <br />
+
             <li><strong>Lichamelijke Opvoeding en Sport</strong></li>
             <li>KSOM Rozenberg Mol - 2017-2023</li>
           </ul>
@@ -126,5 +193,7 @@
         </div>
       </div>
     </section>
+    <footer><i class="bi bi-c-circle"></i> Milan Vandenbergh</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

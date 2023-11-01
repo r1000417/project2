@@ -20,3 +20,8 @@ li.nav-item a:hover {
 #cv img {
     width: 230px;
 }
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
