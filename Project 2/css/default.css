@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0a609a, #a73a24);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+}
+
+li.nav-item a:hover {
+    background-color: #4b3e6b;
+}
+.colorBlack{
+    color: black;
+}
+.border{
+    border-color: #ffffff !important;
+}
+
+#cv img {
+    width: 230px;
+}
